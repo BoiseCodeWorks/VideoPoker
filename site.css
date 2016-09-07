@@ -1,0 +1,9 @@
+body {
+	margin: 20px;
+}
+
+.card {
+  display: inline-block;
+  margin: 3px;
+  width: 100px;
+}
