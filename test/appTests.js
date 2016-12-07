@@ -1,12 +1,16 @@
 var expect = require('chai').expect;
 var selenium = require('selenium-webdriver');
 var test = require('selenium-webdriver/testing');
+var By = selenium.By;
 
 const timeOut = 15000;
 
 test.describe('VideoPoker App', function() {
 
     var driver;
+    var dealBtn;
+    var betInput;
+    var balanceSpan;
 
     test.before(function() {
 
@@ -23,11 +27,49 @@ test.describe('VideoPoker App', function() {
         driver.quit();
     });
 
-    test.it('Loads properly', function() {
+    test.beforeEach(function(done) {
 
-        driver.findElements(selenium.By.id('bet'))
+        driver.findElements(By.id('deal'))
             .then(function(elements) {
-                expect(elements.length).to.equal(1);
+                dealBtn = elements[0];
+
+                driver.findElements(By.id('bet'))
+                    .then(function(elements) {
+                        betInput = elements[0];
+
+                        driver.findElements(By.id('balance'))
+                            .then(function(elements) {
+                                balanceSpan = elements[0];
+                                done();
+                            });
+                    });
             });
     });
+
+    test.it('Loads properly.', function() {
+
+        expect(dealBtn).to.not.be.undefined;
+        expect(betInput).to.not.be.undefined;
+        expect(balanceSpan).to.not.be.undefined;
+    });
+
+    test.it('The deal button is disabled when no bet is entered.', function() {
+
+        dealBtn.getAttribute('class')
+            .then(function(classes) {
+                expect(classes).to.have.string('disabled');
+            });
+    });
+
+    test.it('The deal button is enabled after a bet is entered.', function() {
+
+        betInput.sendKeys('5');
+        balanceSpan.click();
+
+        dealBtn.getAttribute('class')
+            .then(function(classes) {
+                expect(classes).to.not.have.string('disabled');
+            });
+    });
+
 });
