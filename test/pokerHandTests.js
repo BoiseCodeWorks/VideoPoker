@@ -7,7 +7,7 @@ var code = fs.readFileSync('./pokerHand.js');
 
 vm.runInThisContext(code);
 
-describe('handEvaluator', function () {
+describe('PokerHand Object', function () {
 	
 	it('Can be created without a hand.', function () {
 

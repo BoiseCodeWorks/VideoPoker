@@ -8,5 +8,5 @@ var mocha = require('gulp-mocha');
 */
 gulp.task('run-tests', function () {
 	return gulp.src('test/**/*.js', { read: false })
-		.pipe(mocha({ reporter: 'spec' }));
+		.pipe(mocha({ timeout: 30000, reporter: 'spec' }));
 });
