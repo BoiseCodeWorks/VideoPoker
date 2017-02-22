@@ -34,4 +34,11 @@ describe('PokerHand Object', function () {
 		expect(hand.cards).to.not.be.empty;
 		expect(hand.cards.length).to.equal(3);
 	});
+
+	it('Can detect a pair of Jacks', function () {
+		
+		var hand = new PokerHand(['2H', '3H', '4H', 'JH', 'JC']);
+
+		expect(hand.evaluate()).to.equal(0);
+	});
 });
