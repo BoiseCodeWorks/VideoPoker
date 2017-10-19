@@ -32,10 +32,6 @@
 
 <br>
 
-<img src="https://boisecodeworks.github.io/VideoPoker/docs/GameLoop.png">
-
-<br>
-
 ### Required Javascript Objects
 
 #### Card Object
@@ -56,8 +52,13 @@
 #### PlayerObject
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/PlayerObject.png">
 
+<br>
+
 #### GameObject
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/GameObject.png">
+
+*Game Object Event Handlers*
+<img src="https://boisecodeworks.github.io/VideoPoker/docs/GameLoop.png">
 
 <br>
 
