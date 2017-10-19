@@ -5,7 +5,6 @@
 #### User Interface
 
 1. When the page loads:
-	* Display the hand payout table.
 	* Display the player account.
 	* Display a Bet input box.
 	* Display 5 card backs.
@@ -33,22 +32,22 @@
 
 <br>
 
-#### Needed Hand Evaluation Functions
+<img src="https://boisecodeworks.github.io/VideoPoker/docs/GameLoop.png">
 
-isRoyalFlush(hand)
-isStraightFlush(hand)
-isFourOfAKind(hand)
-isFullHouse(hand)
-isFlush(hand)
-isStraight(hand)
-isThreeOfAKind(hand)
-isTwoPair(hand)
-isJacksOrBetter(hand)
+<br>
+
+#### Required Javascript Objects
+
+<img src="https://boisecodeworks.github.io/VideoPoker/docs/CardObject.png">
+<img src="https://boisecodeworks.github.io/VideoPoker/docs/HandObject.png">
+<img src="https://boisecodeworks.github.io/VideoPoker/docs/DeckObject.png">
+<img src="https://boisecodeworks.github.io/VideoPoker/docs/PlayerObject.png">
+<img src="https://boisecodeworks.github.io/VideoPoker/docs/GameObject.png">
 
 <br>
 
 #### Hand Payouts
-Royal Flush - 800:1
+Royal Flush - 250:1
 Straight Flush - 50:1
 4 of a Kind - 40:1
 Full House - 10:1
