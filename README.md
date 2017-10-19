@@ -2,7 +2,7 @@
 
 ---
 
-#### User Interface
+### User Interface
 
 1. When the page loads:
 	* Display the player account.
@@ -14,7 +14,7 @@
 
 <br>
 
-#### Game Loop
+### Game Loop
 
 1. Set the player account to 1000.
 2. The player enters a bet and clicks the Deal button.
@@ -36,25 +36,40 @@
 
 <br>
 
-#### Required Javascript Objects
+### Required Javascript Objects
 
+####Card Object
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/CardObject.png">
+
+<br>
+
+####Hand Object
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/HandObject.png">
+
+<br>
+
+####Deck Object
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/DeckObject.png">
+
+<br>
+
+####PlayerObject
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/PlayerObject.png">
+
+####GameObject
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/GameObject.png">
 
 <br>
 
-#### Hand Payouts
-Royal Flush - 250:1
-Straight Flush - 50:1
-4 of a Kind - 40:1
-Full House - 10:1
-Flush - 7:1
-Straight - 5:1
-3 of a Kind - 3:1
-2 Pairs - 2:1
-1 Pair Jacks or Better - 1:1 
+### Hand Payouts
+* Royal Flush - 250:1
+* Straight Flush - 50:1
+* 4 of a Kind - 40:1
+* Full House - 10:1
+* Flush - 7:1
+* Straight - 5:1
+* 3 of a Kind - 3:1
+* 2 Pairs - 2:1
+* 1 Pair Jacks or Better - 1:1 
 
 
