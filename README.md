@@ -38,25 +38,25 @@
 
 ### Required Javascript Objects
 
-####Card Object
+#### Card Object
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/CardObject.png">
 
 <br>
 
-####Hand Object
+#### Hand Object
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/HandObject.png">
 
 <br>
 
-####Deck Object
+#### Deck Object
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/DeckObject.png">
 
 <br>
 
-####PlayerObject
+#### PlayerObject
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/PlayerObject.png">
 
-####GameObject
+#### GameObject
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/GameObject.png">
 
 <br>
