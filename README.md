@@ -58,6 +58,7 @@
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/GameObject.png">
 
 *Game Object Event Handlers*
+<br>
 <img src="https://boisecodeworks.github.io/VideoPoker/docs/GameLoop.png">
 
 <br>
