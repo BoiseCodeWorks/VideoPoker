@@ -74,4 +74,19 @@
 * 2 Pairs - 2:1
 * 1 Pair Jacks or Better - 1:1 
 
+<br>
+
+### Scoring
+* Card Object (5)
+* Hand Object (5)
+* Deck Object (5)
+* Player Object (5)
+* Game Object (5)
+* Game Loop Logic (10)
+* Bootstrap CSS (5)
+* Project in GitHub (5)
+* GitHub Pages Enabled (5)
+* Total Possible (50)
+
+#### Scoring will include DRY code
 
