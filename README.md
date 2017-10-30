@@ -86,5 +86,7 @@
 * Bootstrap CSS (5)
 * Project in GitHub (5)
 * GitHub Pages Enabled (5)
-* Total Possible (50)
+* Missed deadline (-10)
+
+#### Total Possible (50)
 
