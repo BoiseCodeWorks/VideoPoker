@@ -88,5 +88,3 @@
 * GitHub Pages Enabled (5)
 * Total Possible (50)
 
-#### Scoring will include DRY code
-
